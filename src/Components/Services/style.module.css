@@ -1,0 +1,38 @@
+.rounderDev {
+    width: 110px;
+    height: 110px;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.serv:hover .rounderDev {
+    background-color: rgb(0, 120, 255);
+    border-color: rgb(122, 178, 241);
+
+    i {
+        color: white;
+    }
+}
+
+.bgWork{
+ position: relative;
+    background-image: url('../../image/images\ task04.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 160px;
+}
+.bluelayer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 122, 255, 0.7);
+}

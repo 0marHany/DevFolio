@@ -1,0 +1,108 @@
+.homeImage {
+    background-image: url('../../image/images task01.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.bgDark {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.name::after {
+    content: " ";
+    animation: mymove 4s infinite;
+
+}
+
+@keyframes mymove {
+    0% {
+        content: "F";
+    }
+
+    6% {
+        content: "Fr";
+    }
+
+    10% {
+        content: "Fre";
+    }
+
+    15% {
+        content: "Free";
+    }
+
+    21% {
+        content: "Freel";
+    }
+
+    26% {
+        content: "Freela";
+    }
+
+    32% {
+        content: "Freelan";
+    }
+
+    37% {
+        content: "Freelanc";
+    }
+
+    42% {
+        content: "Freelance";
+    }
+
+    47% {
+        content: "Freelancer";
+    }
+    51% {
+        content: "Freelance";
+    }
+
+    56% {
+        content: "Freelanc";
+    }
+
+    61% {
+        content: "Freelan";
+    }
+
+    66% {
+        content: "Freela";
+    }
+
+    73% {
+        content: "Freel";
+    }
+
+    78% {
+        content: "Free";
+    }
+
+    84% {
+        content: "Fre";
+    }
+
+    90% {
+        content: "Fr";
+    }
+
+    95% {
+        content: "F";
+    }
+
+    100% {
+        content: " ";
+    }
+}
+

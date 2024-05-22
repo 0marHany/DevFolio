@@ -1,0 +1,13 @@
+.prodileImg {
+    width: 40px;
+}
+
+.imgCard {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.name:hover{
+    color: #0078ff;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.bdr {
+    color: white !important;
+}
+
+.bdr:hover {
+    border: 2px solid white;
+    border-top: 0;
+    border-right: 0px;
+    border-bottom: 100%;
+    border-left: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 20px;
+
+}

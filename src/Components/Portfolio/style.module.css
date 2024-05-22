@@ -1,0 +1,21 @@
+.rounderDev {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contetnImg{
+    overflow: hidden;
+}
+.image {
+    transition: transform 1.2s;   
+}
+
+.content:hover .image {
+    transform: scale(1.25);
+}
